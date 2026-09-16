@@ -1,0 +1,4 @@
+interface:
+  display_name: "外贸皮包实图与生图"
+  short_description: "面向外贸皮具的实拍保真修图、生图提示词、结构校对和交付验收"
+  default_prompt: "使用 $leather-goods-imaging，核对这组皮具的底图与结构，整理局部修图提示词和验收标准，按我的授权执行。"
