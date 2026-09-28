@@ -1,6 +1,6 @@
 # Leather Goods Imaging
 
-**外贸皮包实图与生图 Skill** — identity-preserving product-photo editing guidance, modular prompts, and read-only image checks for leather goods and related bags.
+**皮包商业图 Skill** — identity-preserving product-photo editing guidance, SKU-set consistency audits, modular prompts, and read-only image checks for leather goods and related bags.
 
 面向背包、托特、肩包、钱包、卡夹及相关织物包的真实商品图。重点不是“生成更好看的另一个包”，而是修复已指明的问题、保留产品身份，并把可验证的结果交给采购/目录流程。
 
@@ -11,11 +11,14 @@
 - **6个视图模块**：原机位、平视、轻俯、过侧回转、更平更远、仅调占幅。
 - **25个局部模块**：去包装/细绳、铭牌、提手与背带、卡窗、拉片、褶皱、局部压缩、白底、缺边、去锯齿、反光、局部几何等。
 - 参考图分角色、材料/五金保真、同款多视图与文字例外判断。
-- 模块职责和冲突检查；需求路由、匿名案例、12个可人工核对的组合场景。
+- SKU整套比较：主辅图包体占幅、颜色、机位与风格；不以1:1画布代替视觉一致性。
+- 逐层几何检查：外框、内框、前袋、缝线、拉链、滚边/筋和圆角；正视直段按其真实设计查横平竖直，斜视保留合理透视。
+- 第一性原理与对抗式审计：目标缺陷实际改善、材质与非目标部件不倒退；检查高清边缘、纯白背景及贴地阴影。
+- 模块职责和冲突检查；需求路由、匿名案例、32个可人工核对的组合场景。
 - 限次重试、只读审计、用户选版、上线核验与原片保留边界。
 - 只读`image_probe.py`和20项合成/CLI测试，包括索引色调色板及透明度漏检回归。
 
-入口：[SKILL.md](SKILL.md) · [提示词模块](references/02-prompt-library.md) · [覆盖与场景](references/09-coverage-and-scenarios.md) · [匿名案例](references/07-lessons-and-cases.md)
+入口：[SKILL.md](SKILL.md) · [SKU工作法](references/10-sku-commercial-workflow.md) · [第一性原理与对抗审计](references/11-first-principles-adversarial-audit.md) · [提示词模块](references/02-prompt-library.md) · [覆盖与场景](references/09-coverage-and-scenarios.md) · [匿名案例](references/07-lessons-and-cases.md)
 
 ## 安装与使用
 
