@@ -60,6 +60,7 @@ description: 制作与审查皮包商业图，按SKU整套比较颜色、主体�
 - 实拍选片、连接、拍摄补拍、视角 → [参考与几何](references/01-source-and-geometry.md)。
 - 编写可执行提示词 → [模块库](references/02-prompt-library.md)。一个视图模块+必要局部模块；先读模块职责，展开后检查机位/文字/几何冲突。6个视图、25个局部模块，不要求全部套用。
 - 白底、铭牌、RFID、卡窗、皮纹、五金 → [材质与部件](references/03-material-and-components.md)。
+- 轮廓已定但皮纹失真、合成硬贴片、五金光泽倒退 → [定型后恢复原拍材质](references/12-original-material-restoration.md)；锁定已通过结构，只处理获准皮片与明暗。
 - 批量、重试、审计 → [执行与验收](references/04-execution-and-audit.md)。
 - 上线、唯一母版、清理 → [交付与资产管理](references/05-delivery-and-retention.md)。
 - 失败诊断与历史纠正 → [经验与案例](references/07-lessons-and-cases.md)。案例数字仅属于原图。
